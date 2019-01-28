@@ -373,6 +373,8 @@ class Pipeline(object):
 
         # This does not work as it did in the pre-multi-threading code above for some reason.
         # progress_bar.close()
+        
+        return augmentor_images
 
     def process(self):
         """
